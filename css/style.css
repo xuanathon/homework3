@@ -8,7 +8,7 @@ There are some missing selectors.
 Make sure to learn what the starter code does!!
 */
 
-body{
+body {
     color: black;
     font-family: "Andika", sans-serif;
     font-size: 16px;
@@ -19,22 +19,22 @@ body{
     background-position: center;
 }
 
-main{
+main {
     margin-bottom: 100px;
 }
 
-h1{
+h1 {
     color: #8000FF;
     font-size: 2em;
     line-height: 1.5;
     text-align: center;
 }
 
-caption{
+caption {
     margin:5px 0px;
 }
 
-p{
+p {
     color: #000;
     font-size: 16px;
     padding-top: 10px;
@@ -46,14 +46,14 @@ a {
     text-decoration: underline wavy;
 }
 
-table{
+table {
     border: 2px solid #000;
     border-radius: 15px;
     border-collapse: separate;
     margin: auto;
 }
 
-.colhead{
+.colhead {
     min-width: 100px;
     padding: 10px;
     background-color: #7e0820;
@@ -62,11 +62,11 @@ table{
     text-transform: uppercase;
 }
 
-.rowhead{
+.rowhead {
     border-top: 2px solid #000;
 }
 
-td{
+td {
     text-align: center;
     border-top: 2px solid #000;
     padding: 15px;
@@ -80,7 +80,7 @@ tr:nth-child(odd) {
     background: #D1D1D1;
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
     background: transparent;
 }
 
@@ -92,11 +92,11 @@ tr:hover {
     border: 2px solid #000;
 }
 
-thead tr:first-child th:first-child{
+thead tr:first-child th:first-child {
     border-radius: 15px 0 0 0;
 }
 
-thead tr:last-child th:last-child{
+thead tr:last-child th:last-child {
     border-radius: 0 15px 0 0;
 }
 
@@ -104,11 +104,11 @@ tr:last-child th:first-child {
     border-radius: 0 0 0 15px;
 }
 
-tr:last-child td:last-child{
+tr:last-child td:last-child {
     border-radius: 0 0 15px 0;
 }
 
-footer{
+footer {
     position:fixed;
     left:0px;
     bottom:0px;
