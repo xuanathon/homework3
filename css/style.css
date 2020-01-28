@@ -40,14 +40,10 @@ p{
     padding-top: 10px;
 }
 
-a{
+a {
     color: #B21F50;
     font-size: 16px;
     text-decoration: underline wavy;
-}
-
-a:focus {
-    border: 2px solid #000;
 }
 
 table{
@@ -92,7 +88,9 @@ tr:hover {
     background-color: rgba(126,8,32, 0.5);
 }
 
-*{}
+*:focus {
+    border: 2px solid #000;
+}
 
 thead tr:first-child th:first-child{
     border-radius: 15px 0 0 0;
